@@ -13,16 +13,15 @@
 
         <form action="/procesa/libro" method="post">
             <label for="nombreLibro">Título del libro:</label>
-            <input type="text" id="nombre" name="nombreLibro" placeholder="Ej: El Hobbit">
+            <input type="text" id="nombreLibro" name="nombreLibro" placeholder="Ej: El Hobbit">
 
-            <label for="autor">Autor:</label>
-            <input type="text" id="autor" name="nombreAutor" placeholder="Ej: J.R.R. Tolkien">
+            <label for="nombreAutor">Autor:</label>
+            <input type="text" id="nombreAutor" name="nombreAutor" placeholder="Ej: J.R.R. Tolkien">
 
             <button type="submit">Agregar libro</button>
         </form>
-      <a href="/libros">
-    <button>Volver a los libro</button>
-</a>
+
+        <a class="volver" href="/libros">← Volver a los libros</a>
     </div>
 </body>
 </html>
