@@ -15,6 +15,8 @@
 <c:if test="${not empty mensajeError}">
 <h3>${mensajeError}</h3>
 </c:if>
-
+<a href="/libros">
+    <button>Volver</button>
+</a>
 </body>
 </html>
